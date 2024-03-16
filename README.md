@@ -1,4 +1,4 @@
-<table>
+<table border="0">
 <tr>
 <td>
 
@@ -9,7 +9,7 @@
 
 <td>
 
-<img src="assets/img/logo.jpg" alt="drawing" width="150" style="border-radius: 50%;" />
+<img src="assets/img/logo.png" alt="drawing" width="150"/>
 
 </td>
 </tr>
