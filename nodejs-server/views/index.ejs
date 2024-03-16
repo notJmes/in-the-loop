@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/_head'); %> 
+  <body>
+    <%- include('./partials/_nav'); %> 
+    <div class="container mt-2">
+      <header>
+        <p class='fs-3 text'>Hello<span class=' fw-bold'> <%= name %> </span>! <span class='fs-3 text'>How has it been?</span></p>
+      </header>
+
+      <% if (name_flag){ %>
+
+      <div class="alert alert-success" role="alert">
+        You have just submitted your monthly check-in! Feel free to resubmit anytime this month to change it
+      </div>
+
+      <% } %>
+
+      <section>
+        
+        
+        <form action='/submit' method='post', enctype="multipart/form-data">
+        
+        <% for (var i=0; i<qns.length; i++) { %>
+        
+          <div class="form-group">
+            <label for="qn<%= i %>" class="form-label"><b><%= qns[i] %></b></label>
+            <textarea name="qn<%= i %>" type="email" class="form-control" id="qn<%= i %>" aria-describedby="emailHelp" placeholder="Enter response here" rows="5"></textarea>
+          </div>
+          <br>
+        <% } %>
+
+        <div class="form-group">
+          <label for="qnPHOTO" class="form-label"><b>Share an image of the month!</b></label>
+          <input name="image" type="file" class="form-control" id="image" aria-describedby="emailHelp" placeholder="Attached a photo here" rows="5"></textarea>
+          <br>
+          <input type="text" name="qnCAPTION" class="form-control "id="" placeholder="Caption the photo!">
+        </div>
+        <br>
+
+        <% if (true) { %>
+        <input type="hidden" name="name" value="<%= name %>"></input>
+        <% } else { %>
+        <input class="form-control" name="name" value="Dave"></input>
+        
+        <% } %>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
