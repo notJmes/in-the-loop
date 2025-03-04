@@ -9,7 +9,7 @@
 
 <td>
 
-<img src="assets/img/logo.png" alt="drawing" width="150"/>
+<img src="img/logo.png" alt="drawing" width="150"/>
 
 </td>
 </tr>
