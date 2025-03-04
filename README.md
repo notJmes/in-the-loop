@@ -1,19 +1,9 @@
-<table border="0">
-<tr>
-<td>
-
 # In The Loop
-<i> A Telegram-based newsletter bot to stay connected with friends, inspired by [Letterloop](https://www.letterloop.co/)</i>
 
-</td>
-
-<td>
-
-<img src="img/logo.png" alt="drawing" width="150"/>
-
-</td>
-</tr>
-</table>
+<p align='center'>
+<img src="img/logo.png" alt="drawing" width=20% />
+</p>
+<i> A Telegram-based newsletter bot to stay connected with friends, inspired by <a href='https://www.letterloop.co/'>Letterloop</a></i>
 
 ## About this project
 
