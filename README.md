@@ -34,7 +34,7 @@ I decided to create the web application using NodeJS, which was something I was 
 ## Want to try it?
 
 I released the code here for learning purposes and for my personal reference in the future. If you would like to try it, you can check it out here:
-https://t.me/in_the_loop_bot
+https://t.me/in_the_loop_bot **[INACTIVE]**
 
 After bringing up the start menu in the group and subscribing to the newsletter, every user should privately message the bot. This is because the bot is unable to initiate a conversation with a user as part of Telegram's security features.
 
